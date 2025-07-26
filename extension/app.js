@@ -2,10 +2,10 @@ var VirtualCameraManager;
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./node_modules/@mediapipe/holistic/holistic.js":
-/*!******************************************************!*\
-  !*** ./node_modules/@mediapipe/holistic/holistic.js ***!
-  \******************************************************/
+/***/ "../node_modules/@mediapipe/holistic/holistic.js":
+/*!*******************************************************!*\
+  !*** ../node_modules/@mediapipe/holistic/holistic.js ***!
+  \*******************************************************/
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 (function(){/*
@@ -171,10 +171,10 @@ H("matrixDataToMatrix",function(a){for(var b=a.getCols(),c=a.getRows(),d=a.getPa
 
 /***/ }),
 
-/***/ "./node_modules/@pixiv/three-vrm/lib/three-vrm.module.js":
-/*!***************************************************************!*\
-  !*** ./node_modules/@pixiv/three-vrm/lib/three-vrm.module.js ***!
-  \***************************************************************/
+/***/ "../node_modules/@pixiv/three-vrm/lib/three-vrm.module.js":
+/*!****************************************************************!*\
+  !*** ../node_modules/@pixiv/three-vrm/lib/three-vrm.module.js ***!
+  \****************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -234,8 +234,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   VRMSpringBoneManager: () => (/* binding */ VRMSpringBoneManager),
 /* harmony export */   VRMUtils: () => (/* binding */ VRMUtils)
 /* harmony export */ });
-/* harmony import */ var three__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! three */ "./node_modules/three/build/three.core.js");
-/* harmony import */ var three__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! three */ "./node_modules/three/build/three.module.js");
+/* harmony import */ var three__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! three */ "../node_modules/three/build/three.core.js");
+/* harmony import */ var three__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! three */ "../node_modules/three/build/three.module.js");
 /*!
  * @pixiv/three-vrm v3.4.2
  * VRM file loader for three.js.
@@ -6914,10 +6914,10 @@ VRMUtils.rotateVRM0 = rotateVRM0;
 
 /***/ }),
 
-/***/ "./node_modules/kalidokit/dist/FaceSolver/calcEyes.js":
-/*!************************************************************!*\
-  !*** ./node_modules/kalidokit/dist/FaceSolver/calcEyes.js ***!
-  \************************************************************/
+/***/ "../node_modules/kalidokit/dist/FaceSolver/calcEyes.js":
+/*!*************************************************************!*\
+  !*** ../node_modules/kalidokit/dist/FaceSolver/calcEyes.js ***!
+  \*************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -6932,9 +6932,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   pupilPos: () => (/* binding */ pupilPos),
 /* harmony export */   stabilizeBlink: () => (/* binding */ stabilizeBlink)
 /* harmony export */ });
-/* harmony import */ var _utils_vector__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/vector */ "./node_modules/kalidokit/dist/utils/vector.js");
-/* harmony import */ var _utils_helpers__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../utils/helpers */ "./node_modules/kalidokit/dist/utils/helpers.js");
-/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../constants */ "./node_modules/kalidokit/dist/constants.js");
+/* harmony import */ var _utils_vector__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/vector */ "../node_modules/kalidokit/dist/utils/vector.js");
+/* harmony import */ var _utils_helpers__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../utils/helpers */ "../node_modules/kalidokit/dist/utils/helpers.js");
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../constants */ "../node_modules/kalidokit/dist/constants.js");
 
 
 
@@ -7129,10 +7129,10 @@ const calcBrow = (lm) => {
 
 /***/ }),
 
-/***/ "./node_modules/kalidokit/dist/FaceSolver/calcHead.js":
-/*!************************************************************!*\
-  !*** ./node_modules/kalidokit/dist/FaceSolver/calcHead.js ***!
-  \************************************************************/
+/***/ "../node_modules/kalidokit/dist/FaceSolver/calcHead.js":
+/*!*************************************************************!*\
+  !*** ../node_modules/kalidokit/dist/FaceSolver/calcHead.js ***!
+  \*************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -7141,8 +7141,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   calcHead: () => (/* binding */ calcHead),
 /* harmony export */   createEulerPlane: () => (/* binding */ createEulerPlane)
 /* harmony export */ });
-/* harmony import */ var _utils_vector__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/vector */ "./node_modules/kalidokit/dist/utils/vector.js");
-/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../constants */ "./node_modules/kalidokit/dist/constants.js");
+/* harmony import */ var _utils_vector__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/vector */ "../node_modules/kalidokit/dist/utils/vector.js");
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../constants */ "../node_modules/kalidokit/dist/constants.js");
 
 
 /**
@@ -7204,10 +7204,10 @@ const calcHead = (lm) => {
 
 /***/ }),
 
-/***/ "./node_modules/kalidokit/dist/FaceSolver/calcMouth.js":
-/*!*************************************************************!*\
-  !*** ./node_modules/kalidokit/dist/FaceSolver/calcMouth.js ***!
-  \*************************************************************/
+/***/ "../node_modules/kalidokit/dist/FaceSolver/calcMouth.js":
+/*!**************************************************************!*\
+  !*** ../node_modules/kalidokit/dist/FaceSolver/calcMouth.js ***!
+  \**************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -7215,8 +7215,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   calcMouth: () => (/* binding */ calcMouth)
 /* harmony export */ });
-/* harmony import */ var _utils_vector__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/vector */ "./node_modules/kalidokit/dist/utils/vector.js");
-/* harmony import */ var _utils_helpers__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../utils/helpers */ "./node_modules/kalidokit/dist/utils/helpers.js");
+/* harmony import */ var _utils_vector__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/vector */ "../node_modules/kalidokit/dist/utils/vector.js");
+/* harmony import */ var _utils_helpers__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../utils/helpers */ "../node_modules/kalidokit/dist/utils/helpers.js");
 
 
 /**
@@ -7276,10 +7276,10 @@ const calcMouth = (lm) => {
 
 /***/ }),
 
-/***/ "./node_modules/kalidokit/dist/FaceSolver/index.js":
-/*!*********************************************************!*\
-  !*** ./node_modules/kalidokit/dist/FaceSolver/index.js ***!
-  \*********************************************************/
+/***/ "../node_modules/kalidokit/dist/FaceSolver/index.js":
+/*!**********************************************************!*\
+  !*** ../node_modules/kalidokit/dist/FaceSolver/index.js ***!
+  \**********************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -7287,9 +7287,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   FaceSolver: () => (/* binding */ FaceSolver)
 /* harmony export */ });
-/* harmony import */ var _calcHead__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./calcHead */ "./node_modules/kalidokit/dist/FaceSolver/calcHead.js");
-/* harmony import */ var _calcEyes__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./calcEyes */ "./node_modules/kalidokit/dist/FaceSolver/calcEyes.js");
-/* harmony import */ var _calcMouth__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./calcMouth */ "./node_modules/kalidokit/dist/FaceSolver/calcMouth.js");
+/* harmony import */ var _calcHead__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./calcHead */ "../node_modules/kalidokit/dist/FaceSolver/calcHead.js");
+/* harmony import */ var _calcEyes__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./calcEyes */ "../node_modules/kalidokit/dist/FaceSolver/calcEyes.js");
+/* harmony import */ var _calcMouth__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./calcMouth */ "../node_modules/kalidokit/dist/FaceSolver/calcMouth.js");
 
 
 
@@ -7351,10 +7351,10 @@ FaceSolver.stabilizeBlink = _calcEyes__WEBPACK_IMPORTED_MODULE_1__.stabilizeBlin
 
 /***/ }),
 
-/***/ "./node_modules/kalidokit/dist/HandSolver/index.js":
-/*!*********************************************************!*\
-  !*** ./node_modules/kalidokit/dist/HandSolver/index.js ***!
-  \*********************************************************/
+/***/ "../node_modules/kalidokit/dist/HandSolver/index.js":
+/*!**********************************************************!*\
+  !*** ../node_modules/kalidokit/dist/HandSolver/index.js ***!
+  \**********************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -7362,9 +7362,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   HandSolver: () => (/* binding */ HandSolver)
 /* harmony export */ });
-/* harmony import */ var _utils_vector__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/vector */ "./node_modules/kalidokit/dist/utils/vector.js");
-/* harmony import */ var _utils_helpers__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../utils/helpers */ "./node_modules/kalidokit/dist/utils/helpers.js");
-/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../constants */ "./node_modules/kalidokit/dist/constants.js");
+/* harmony import */ var _utils_vector__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/vector */ "../node_modules/kalidokit/dist/utils/vector.js");
+/* harmony import */ var _utils_helpers__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../utils/helpers */ "../node_modules/kalidokit/dist/utils/helpers.js");
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../constants */ "../node_modules/kalidokit/dist/constants.js");
 
 
 
@@ -7465,10 +7465,10 @@ const rigFingers = (hand, side = _constants__WEBPACK_IMPORTED_MODULE_2__.RIGHT) 
 
 /***/ }),
 
-/***/ "./node_modules/kalidokit/dist/PoseSolver/calcArms.js":
-/*!************************************************************!*\
-  !*** ./node_modules/kalidokit/dist/PoseSolver/calcArms.js ***!
-  \************************************************************/
+/***/ "../node_modules/kalidokit/dist/PoseSolver/calcArms.js":
+/*!*************************************************************!*\
+  !*** ../node_modules/kalidokit/dist/PoseSolver/calcArms.js ***!
+  \*************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -7477,9 +7477,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   calcArms: () => (/* binding */ calcArms),
 /* harmony export */   rigArm: () => (/* binding */ rigArm)
 /* harmony export */ });
-/* harmony import */ var _utils_vector__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/vector */ "./node_modules/kalidokit/dist/utils/vector.js");
-/* harmony import */ var _utils_helpers__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../utils/helpers */ "./node_modules/kalidokit/dist/utils/helpers.js");
-/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../constants */ "./node_modules/kalidokit/dist/constants.js");
+/* harmony import */ var _utils_vector__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/vector */ "../node_modules/kalidokit/dist/utils/vector.js");
+/* harmony import */ var _utils_helpers__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../utils/helpers */ "../node_modules/kalidokit/dist/utils/helpers.js");
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../constants */ "../node_modules/kalidokit/dist/constants.js");
 
 
 
@@ -7568,10 +7568,10 @@ const rigArm = (UpperArm, LowerArm, Hand, side = _constants__WEBPACK_IMPORTED_MO
 
 /***/ }),
 
-/***/ "./node_modules/kalidokit/dist/PoseSolver/calcHips.js":
-/*!************************************************************!*\
-  !*** ./node_modules/kalidokit/dist/PoseSolver/calcHips.js ***!
-  \************************************************************/
+/***/ "../node_modules/kalidokit/dist/PoseSolver/calcHips.js":
+/*!*************************************************************!*\
+  !*** ../node_modules/kalidokit/dist/PoseSolver/calcHips.js ***!
+  \*************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -7580,9 +7580,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   calcHips: () => (/* binding */ calcHips),
 /* harmony export */   rigHips: () => (/* binding */ rigHips)
 /* harmony export */ });
-/* harmony import */ var _utils_vector__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/vector */ "./node_modules/kalidokit/dist/utils/vector.js");
-/* harmony import */ var _utils_helpers__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../utils/helpers */ "./node_modules/kalidokit/dist/utils/helpers.js");
-/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../constants */ "./node_modules/kalidokit/dist/constants.js");
+/* harmony import */ var _utils_vector__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/vector */ "../node_modules/kalidokit/dist/utils/vector.js");
+/* harmony import */ var _utils_helpers__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../utils/helpers */ "../node_modules/kalidokit/dist/utils/helpers.js");
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../constants */ "../node_modules/kalidokit/dist/constants.js");
 
 
 
@@ -7672,10 +7672,10 @@ const rigHips = (hips, spine) => {
 
 /***/ }),
 
-/***/ "./node_modules/kalidokit/dist/PoseSolver/calcLegs.js":
-/*!************************************************************!*\
-  !*** ./node_modules/kalidokit/dist/PoseSolver/calcLegs.js ***!
-  \************************************************************/
+/***/ "../node_modules/kalidokit/dist/PoseSolver/calcLegs.js":
+/*!*************************************************************!*\
+  !*** ../node_modules/kalidokit/dist/PoseSolver/calcLegs.js ***!
+  \*************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -7685,10 +7685,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   offsets: () => (/* binding */ offsets),
 /* harmony export */   rigLeg: () => (/* binding */ rigLeg)
 /* harmony export */ });
-/* harmony import */ var _utils_vector__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/vector */ "./node_modules/kalidokit/dist/utils/vector.js");
-/* harmony import */ var _utils_euler__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../utils/euler */ "./node_modules/kalidokit/dist/utils/euler.js");
-/* harmony import */ var _utils_helpers__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../utils/helpers */ "./node_modules/kalidokit/dist/utils/helpers.js");
-/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./../constants */ "./node_modules/kalidokit/dist/constants.js");
+/* harmony import */ var _utils_vector__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/vector */ "../node_modules/kalidokit/dist/utils/vector.js");
+/* harmony import */ var _utils_euler__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../utils/euler */ "../node_modules/kalidokit/dist/utils/euler.js");
+/* harmony import */ var _utils_helpers__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../utils/helpers */ "../node_modules/kalidokit/dist/utils/helpers.js");
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./../constants */ "../node_modules/kalidokit/dist/constants.js");
 
 
 
@@ -7789,10 +7789,10 @@ const rigLeg = (UpperLeg, LowerLeg, side = _constants__WEBPACK_IMPORTED_MODULE_3
 
 /***/ }),
 
-/***/ "./node_modules/kalidokit/dist/PoseSolver/index.js":
-/*!*********************************************************!*\
-  !*** ./node_modules/kalidokit/dist/PoseSolver/index.js ***!
-  \*********************************************************/
+/***/ "../node_modules/kalidokit/dist/PoseSolver/index.js":
+/*!**********************************************************!*\
+  !*** ../node_modules/kalidokit/dist/PoseSolver/index.js ***!
+  \**********************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -7800,10 +7800,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   PoseSolver: () => (/* binding */ PoseSolver)
 /* harmony export */ });
-/* harmony import */ var _utils_helpers__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/helpers */ "./node_modules/kalidokit/dist/utils/helpers.js");
-/* harmony import */ var _calcArms__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./calcArms */ "./node_modules/kalidokit/dist/PoseSolver/calcArms.js");
-/* harmony import */ var _calcHips__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./calcHips */ "./node_modules/kalidokit/dist/PoseSolver/calcHips.js");
-/* harmony import */ var _calcLegs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./calcLegs */ "./node_modules/kalidokit/dist/PoseSolver/calcLegs.js");
+/* harmony import */ var _utils_helpers__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/helpers */ "../node_modules/kalidokit/dist/utils/helpers.js");
+/* harmony import */ var _calcArms__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./calcArms */ "../node_modules/kalidokit/dist/PoseSolver/calcArms.js");
+/* harmony import */ var _calcHips__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./calcHips */ "../node_modules/kalidokit/dist/PoseSolver/calcHips.js");
+/* harmony import */ var _calcLegs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./calcLegs */ "../node_modules/kalidokit/dist/PoseSolver/calcLegs.js");
 
 
 
@@ -7891,10 +7891,10 @@ PoseSolver.calcLegs = _calcLegs__WEBPACK_IMPORTED_MODULE_3__.calcLegs;
 
 /***/ }),
 
-/***/ "./node_modules/kalidokit/dist/Types.js":
-/*!**********************************************!*\
-  !*** ./node_modules/kalidokit/dist/Types.js ***!
-  \**********************************************/
+/***/ "../node_modules/kalidokit/dist/Types.js":
+/*!***********************************************!*\
+  !*** ../node_modules/kalidokit/dist/Types.js ***!
+  \***********************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -7904,10 +7904,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/kalidokit/dist/constants.js":
-/*!**************************************************!*\
-  !*** ./node_modules/kalidokit/dist/constants.js ***!
-  \**************************************************/
+/***/ "../node_modules/kalidokit/dist/constants.js":
+/*!***************************************************!*\
+  !*** ../node_modules/kalidokit/dist/constants.js ***!
+  \***************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -7926,10 +7926,10 @@ const TWO_PI = Math.PI * 2;
 
 /***/ }),
 
-/***/ "./node_modules/kalidokit/dist/index.js":
-/*!**********************************************!*\
-  !*** ./node_modules/kalidokit/dist/index.js ***!
-  \**********************************************/
+/***/ "../node_modules/kalidokit/dist/index.js":
+/*!***********************************************!*\
+  !*** ../node_modules/kalidokit/dist/index.js ***!
+  \***********************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -7941,12 +7941,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   Utils: () => (/* reexport module object */ _utils_helpers__WEBPACK_IMPORTED_MODULE_4__),
 /* harmony export */   Vector: () => (/* reexport safe */ _utils_vector__WEBPACK_IMPORTED_MODULE_3__["default"])
 /* harmony export */ });
-/* harmony import */ var _PoseSolver__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./PoseSolver */ "./node_modules/kalidokit/dist/PoseSolver/index.js");
-/* harmony import */ var _HandSolver__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./HandSolver */ "./node_modules/kalidokit/dist/HandSolver/index.js");
-/* harmony import */ var _FaceSolver__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./FaceSolver */ "./node_modules/kalidokit/dist/FaceSolver/index.js");
-/* harmony import */ var _utils_vector__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./utils/vector */ "./node_modules/kalidokit/dist/utils/vector.js");
-/* harmony import */ var _utils_helpers__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./utils/helpers */ "./node_modules/kalidokit/dist/utils/helpers.js");
-/* harmony import */ var _Types__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Types */ "./node_modules/kalidokit/dist/Types.js");
+/* harmony import */ var _PoseSolver__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./PoseSolver */ "../node_modules/kalidokit/dist/PoseSolver/index.js");
+/* harmony import */ var _HandSolver__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./HandSolver */ "../node_modules/kalidokit/dist/HandSolver/index.js");
+/* harmony import */ var _FaceSolver__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./FaceSolver */ "../node_modules/kalidokit/dist/FaceSolver/index.js");
+/* harmony import */ var _utils_vector__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./utils/vector */ "../node_modules/kalidokit/dist/utils/vector.js");
+/* harmony import */ var _utils_helpers__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./utils/helpers */ "../node_modules/kalidokit/dist/utils/helpers.js");
+/* harmony import */ var _Types__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Types */ "../node_modules/kalidokit/dist/Types.js");
 
 
 
@@ -7958,10 +7958,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/kalidokit/dist/utils/euler.js":
-/*!****************************************************!*\
-  !*** ./node_modules/kalidokit/dist/utils/euler.js ***!
-  \****************************************************/
+/***/ "../node_modules/kalidokit/dist/utils/euler.js":
+/*!*****************************************************!*\
+  !*** ../node_modules/kalidokit/dist/utils/euler.js ***!
+  \*****************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -7997,10 +7997,10 @@ class Euler {
 
 /***/ }),
 
-/***/ "./node_modules/kalidokit/dist/utils/helpers.js":
-/*!******************************************************!*\
-  !*** ./node_modules/kalidokit/dist/utils/helpers.js ***!
-  \******************************************************/
+/***/ "../node_modules/kalidokit/dist/utils/helpers.js":
+/*!*******************************************************!*\
+  !*** ../node_modules/kalidokit/dist/utils/helpers.js ***!
+  \*******************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -8303,10 +8303,10 @@ const RestingDefault = {
 
 /***/ }),
 
-/***/ "./node_modules/kalidokit/dist/utils/vector.js":
-/*!*****************************************************!*\
-  !*** ./node_modules/kalidokit/dist/utils/vector.js ***!
-  \*****************************************************/
+/***/ "../node_modules/kalidokit/dist/utils/vector.js":
+/*!******************************************************!*\
+  !*** ../node_modules/kalidokit/dist/utils/vector.js ***!
+  \******************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -8314,7 +8314,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ Vector)
 /* harmony export */ });
-/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./../constants */ "./node_modules/kalidokit/dist/constants.js");
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./../constants */ "../node_modules/kalidokit/dist/constants.js");
 
 /** Vector Math class. */
 class Vector {
@@ -8773,10 +8773,10 @@ class Vector {
 
 /***/ }),
 
-/***/ "./node_modules/react/cjs/react.development.js":
-/*!*****************************************************!*\
-  !*** ./node_modules/react/cjs/react.development.js ***!
-  \*****************************************************/
+/***/ "../node_modules/react/cjs/react.development.js":
+/*!******************************************************!*\
+  !*** ../node_modules/react/cjs/react.development.js ***!
+  \******************************************************/
 /***/ ((module, exports, __webpack_require__) => {
 
 "use strict";
@@ -10027,10 +10027,10 @@ class Vector {
 
 /***/ }),
 
-/***/ "./node_modules/react/index.js":
-/*!*************************************!*\
-  !*** ./node_modules/react/index.js ***!
-  \*************************************/
+/***/ "../node_modules/react/index.js":
+/*!**************************************!*\
+  !*** ../node_modules/react/index.js ***!
+  \**************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -10038,16 +10038,16 @@ class Vector {
 
 if (false) // removed by dead control flow
 {} else {
-  module.exports = __webpack_require__(/*! ./cjs/react.development.js */ "./node_modules/react/cjs/react.development.js");
+  module.exports = __webpack_require__(/*! ./cjs/react.development.js */ "../node_modules/react/cjs/react.development.js");
 }
 
 
 /***/ }),
 
-/***/ "./node_modules/three/build/three.core.js":
-/*!************************************************!*\
-  !*** ./node_modules/three/build/three.core.js ***!
-  \************************************************/
+/***/ "../node_modules/three/build/three.core.js":
+/*!*************************************************!*\
+  !*** ../node_modules/three/build/three.core.js ***!
+  \*************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -68639,10 +68639,10 @@ if ( typeof window !== 'undefined' ) {
 
 /***/ }),
 
-/***/ "./node_modules/three/build/three.module.js":
-/*!**************************************************!*\
-  !*** ./node_modules/three/build/three.module.js ***!
-  \**************************************************/
+/***/ "../node_modules/three/build/three.module.js":
+/*!***************************************************!*\
+  !*** ../node_modules/three/build/three.module.js ***!
+  \***************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -69068,7 +69068,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   ZeroStencilOp: () => (/* reexport safe */ _three_core_js__WEBPACK_IMPORTED_MODULE_0__.ZeroStencilOp),
 /* harmony export */   createCanvasElement: () => (/* reexport safe */ _three_core_js__WEBPACK_IMPORTED_MODULE_0__.createCanvasElement)
 /* harmony export */ });
-/* harmony import */ var _three_core_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./three.core.js */ "./node_modules/three/build/three.core.js");
+/* harmony import */ var _three_core_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./three.core.js */ "../node_modules/three/build/three.core.js");
 /**
  * @license
  * Copyright 2010-2025 Three.js Authors
@@ -87223,10 +87223,10 @@ class WebGLRenderer {
 
 /***/ }),
 
-/***/ "./node_modules/three/examples/jsm/loaders/GLTFLoader.js":
-/*!***************************************************************!*\
-  !*** ./node_modules/three/examples/jsm/loaders/GLTFLoader.js ***!
-  \***************************************************************/
+/***/ "../node_modules/three/examples/jsm/loaders/GLTFLoader.js":
+/*!****************************************************************!*\
+  !*** ../node_modules/three/examples/jsm/loaders/GLTFLoader.js ***!
+  \****************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -87234,8 +87234,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   GLTFLoader: () => (/* binding */ GLTFLoader)
 /* harmony export */ });
-/* harmony import */ var three__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! three */ "./node_modules/three/build/three.core.js");
-/* harmony import */ var _utils_BufferGeometryUtils_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../utils/BufferGeometryUtils.js */ "./node_modules/three/examples/jsm/utils/BufferGeometryUtils.js");
+/* harmony import */ var three__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! three */ "../node_modules/three/build/three.core.js");
+/* harmony import */ var _utils_BufferGeometryUtils_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../utils/BufferGeometryUtils.js */ "../node_modules/three/examples/jsm/utils/BufferGeometryUtils.js");
 
 
 
@@ -92060,10 +92060,10 @@ function addPrimitiveAttributes( geometry, primitiveDef, parser ) {
 
 /***/ }),
 
-/***/ "./node_modules/three/examples/jsm/postprocessing/EffectComposer.js":
-/*!**************************************************************************!*\
-  !*** ./node_modules/three/examples/jsm/postprocessing/EffectComposer.js ***!
-  \**************************************************************************/
+/***/ "../node_modules/three/examples/jsm/postprocessing/EffectComposer.js":
+/*!***************************************************************************!*\
+  !*** ../node_modules/three/examples/jsm/postprocessing/EffectComposer.js ***!
+  \***************************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -92071,10 +92071,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   EffectComposer: () => (/* binding */ EffectComposer)
 /* harmony export */ });
-/* harmony import */ var three__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! three */ "./node_modules/three/build/three.core.js");
-/* harmony import */ var _shaders_CopyShader_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../shaders/CopyShader.js */ "./node_modules/three/examples/jsm/shaders/CopyShader.js");
-/* harmony import */ var _ShaderPass_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ShaderPass.js */ "./node_modules/three/examples/jsm/postprocessing/ShaderPass.js");
-/* harmony import */ var _MaskPass_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./MaskPass.js */ "./node_modules/three/examples/jsm/postprocessing/MaskPass.js");
+/* harmony import */ var three__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! three */ "../node_modules/three/build/three.core.js");
+/* harmony import */ var _shaders_CopyShader_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../shaders/CopyShader.js */ "../node_modules/three/examples/jsm/shaders/CopyShader.js");
+/* harmony import */ var _ShaderPass_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ShaderPass.js */ "../node_modules/three/examples/jsm/postprocessing/ShaderPass.js");
+/* harmony import */ var _MaskPass_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./MaskPass.js */ "../node_modules/three/examples/jsm/postprocessing/MaskPass.js");
 
 
 
@@ -92436,10 +92436,10 @@ class EffectComposer {
 
 /***/ }),
 
-/***/ "./node_modules/three/examples/jsm/postprocessing/MaskPass.js":
-/*!********************************************************************!*\
-  !*** ./node_modules/three/examples/jsm/postprocessing/MaskPass.js ***!
-  \********************************************************************/
+/***/ "../node_modules/three/examples/jsm/postprocessing/MaskPass.js":
+/*!*********************************************************************!*\
+  !*** ../node_modules/three/examples/jsm/postprocessing/MaskPass.js ***!
+  \*********************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -92448,7 +92448,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   ClearMaskPass: () => (/* binding */ ClearMaskPass),
 /* harmony export */   MaskPass: () => (/* binding */ MaskPass)
 /* harmony export */ });
-/* harmony import */ var _Pass_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Pass.js */ "./node_modules/three/examples/jsm/postprocessing/Pass.js");
+/* harmony import */ var _Pass_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Pass.js */ "../node_modules/three/examples/jsm/postprocessing/Pass.js");
 
 
 /**
@@ -92648,10 +92648,10 @@ class ClearMaskPass extends _Pass_js__WEBPACK_IMPORTED_MODULE_0__.Pass {
 
 /***/ }),
 
-/***/ "./node_modules/three/examples/jsm/postprocessing/Pass.js":
-/*!****************************************************************!*\
-  !*** ./node_modules/three/examples/jsm/postprocessing/Pass.js ***!
-  \****************************************************************/
+/***/ "../node_modules/three/examples/jsm/postprocessing/Pass.js":
+/*!*****************************************************************!*\
+  !*** ../node_modules/three/examples/jsm/postprocessing/Pass.js ***!
+  \*****************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -92660,7 +92660,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   FullScreenQuad: () => (/* binding */ FullScreenQuad),
 /* harmony export */   Pass: () => (/* binding */ Pass)
 /* harmony export */ });
-/* harmony import */ var three__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! three */ "./node_modules/three/build/three.core.js");
+/* harmony import */ var three__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! three */ "../node_modules/three/build/three.core.js");
 
 
 /**
@@ -92851,10 +92851,10 @@ class FullScreenQuad {
 
 /***/ }),
 
-/***/ "./node_modules/three/examples/jsm/postprocessing/RenderPass.js":
-/*!**********************************************************************!*\
-  !*** ./node_modules/three/examples/jsm/postprocessing/RenderPass.js ***!
-  \**********************************************************************/
+/***/ "../node_modules/three/examples/jsm/postprocessing/RenderPass.js":
+/*!***********************************************************************!*\
+  !*** ../node_modules/three/examples/jsm/postprocessing/RenderPass.js ***!
+  \***********************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -92862,8 +92862,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   RenderPass: () => (/* binding */ RenderPass)
 /* harmony export */ });
-/* harmony import */ var three__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! three */ "./node_modules/three/build/three.core.js");
-/* harmony import */ var _Pass_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Pass.js */ "./node_modules/three/examples/jsm/postprocessing/Pass.js");
+/* harmony import */ var three__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! three */ "../node_modules/three/build/three.core.js");
+/* harmony import */ var _Pass_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Pass.js */ "../node_modules/three/examples/jsm/postprocessing/Pass.js");
 
 
 
@@ -93049,10 +93049,10 @@ class RenderPass extends _Pass_js__WEBPACK_IMPORTED_MODULE_1__.Pass {
 
 /***/ }),
 
-/***/ "./node_modules/three/examples/jsm/postprocessing/ShaderPass.js":
-/*!**********************************************************************!*\
-  !*** ./node_modules/three/examples/jsm/postprocessing/ShaderPass.js ***!
-  \**********************************************************************/
+/***/ "../node_modules/three/examples/jsm/postprocessing/ShaderPass.js":
+/*!***********************************************************************!*\
+  !*** ../node_modules/three/examples/jsm/postprocessing/ShaderPass.js ***!
+  \***********************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -93060,8 +93060,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   ShaderPass: () => (/* binding */ ShaderPass)
 /* harmony export */ });
-/* harmony import */ var three__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! three */ "./node_modules/three/build/three.core.js");
-/* harmony import */ var _Pass_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Pass.js */ "./node_modules/three/examples/jsm/postprocessing/Pass.js");
+/* harmony import */ var three__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! three */ "../node_modules/three/build/three.core.js");
+/* harmony import */ var _Pass_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Pass.js */ "../node_modules/three/examples/jsm/postprocessing/Pass.js");
 
 
 
@@ -93198,10 +93198,10 @@ class ShaderPass extends _Pass_js__WEBPACK_IMPORTED_MODULE_1__.Pass {
 
 /***/ }),
 
-/***/ "./node_modules/three/examples/jsm/shaders/CopyShader.js":
-/*!***************************************************************!*\
-  !*** ./node_modules/three/examples/jsm/shaders/CopyShader.js ***!
-  \***************************************************************/
+/***/ "../node_modules/three/examples/jsm/shaders/CopyShader.js":
+/*!****************************************************************!*\
+  !*** ../node_modules/three/examples/jsm/shaders/CopyShader.js ***!
+  \****************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -93265,10 +93265,10 @@ const CopyShader = {
 
 /***/ }),
 
-/***/ "./node_modules/three/examples/jsm/utils/BufferGeometryUtils.js":
-/*!**********************************************************************!*\
-  !*** ./node_modules/three/examples/jsm/utils/BufferGeometryUtils.js ***!
-  \**********************************************************************/
+/***/ "../node_modules/three/examples/jsm/utils/BufferGeometryUtils.js":
+/*!***********************************************************************!*\
+  !*** ../node_modules/three/examples/jsm/utils/BufferGeometryUtils.js ***!
+  \***********************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -93288,7 +93288,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   toCreasedNormals: () => (/* binding */ toCreasedNormals),
 /* harmony export */   toTrianglesDrawMode: () => (/* binding */ toTrianglesDrawMode)
 /* harmony export */ });
-/* harmony import */ var three__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! three */ "./node_modules/three/build/three.core.js");
+/* harmony import */ var three__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! three */ "../node_modules/three/build/three.core.js");
 
 
 /**
@@ -94703,10 +94703,10 @@ function toCreasedNormals( geometry, creaseAngle = Math.PI / 3 /* 60 degrees */ 
 
 /***/ }),
 
-/***/ "./node_modules/three/src/math/MathUtils.js":
-/*!**************************************************!*\
-  !*** ./node_modules/three/src/math/MathUtils.js ***!
-  \**************************************************/
+/***/ "../node_modules/three/src/math/MathUtils.js":
+/*!***************************************************!*\
+  !*** ../node_modules/three/src/math/MathUtils.js ***!
+  \***************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -95465,10 +95465,10 @@ const MathUtils = {
 
 /***/ }),
 
-/***/ "./node_modules/zustand/esm/react.mjs":
-/*!********************************************!*\
-  !*** ./node_modules/zustand/esm/react.mjs ***!
-  \********************************************/
+/***/ "../node_modules/zustand/esm/react.mjs":
+/*!*********************************************!*\
+  !*** ../node_modules/zustand/esm/react.mjs ***!
+  \*********************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -95477,8 +95477,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   create: () => (/* binding */ create),
 /* harmony export */   useStore: () => (/* binding */ useStore)
 /* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var zustand_vanilla__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! zustand/vanilla */ "./node_modules/zustand/esm/vanilla.mjs");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "../node_modules/react/index.js");
+/* harmony import */ var zustand_vanilla__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! zustand/vanilla */ "../node_modules/zustand/esm/vanilla.mjs");
 
 
 
@@ -95505,10 +95505,10 @@ const create = (createState) => createState ? createImpl(createState) : createIm
 
 /***/ }),
 
-/***/ "./node_modules/zustand/esm/vanilla.mjs":
-/*!**********************************************!*\
-  !*** ./node_modules/zustand/esm/vanilla.mjs ***!
-  \**********************************************/
+/***/ "../node_modules/zustand/esm/vanilla.mjs":
+/*!***********************************************!*\
+  !*** ../node_modules/zustand/esm/vanilla.mjs ***!
+  \***********************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -95555,7 +95555,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   createResultsCallback: () => (/* binding */ createResultsCallback)
 /* harmony export */ });
-/* harmony import */ var kalidokit__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! kalidokit */ "./node_modules/kalidokit/dist/index.js");
+/* harmony import */ var kalidokit__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! kalidokit */ "../node_modules/kalidokit/dist/index.js");
 
 
 /**
@@ -95624,9 +95624,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   rotateBone: () => (/* binding */ rotateBone),
 /* harmony export */   updateEyeLookAt: () => (/* binding */ updateEyeLookAt)
 /* harmony export */ });
-/* harmony import */ var three__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! three */ "./node_modules/three/build/three.core.js");
-/* harmony import */ var three_src_math_MathUtils_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! three/src/math/MathUtils.js */ "./node_modules/three/src/math/MathUtils.js");
-/* harmony import */ var _pixiv_three_vrm__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @pixiv/three-vrm */ "./node_modules/@pixiv/three-vrm/lib/three-vrm.module.js");
+/* harmony import */ var three__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! three */ "../node_modules/three/build/three.core.js");
+/* harmony import */ var three_src_math_MathUtils_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! three/src/math/MathUtils.js */ "../node_modules/three/src/math/MathUtils.js");
+/* harmony import */ var _pixiv_three_vrm__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @pixiv/three-vrm */ "../node_modules/@pixiv/three-vrm/lib/three-vrm.module.js");
 
 
 
@@ -95964,17 +95964,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__),
 /* harmony export */   useVideoRecognition: () => (/* binding */ useVideoRecognition)
 /* harmony export */ });
-/* harmony import */ var _mediapipe_holistic__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @mediapipe/holistic */ "./node_modules/@mediapipe/holistic/holistic.js");
+/* harmony import */ var _mediapipe_holistic__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @mediapipe/holistic */ "../node_modules/@mediapipe/holistic/holistic.js");
 /* harmony import */ var _mediapipe_holistic__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_mediapipe_holistic__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var three__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! three */ "./node_modules/three/build/three.core.js");
-/* harmony import */ var three__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! three */ "./node_modules/three/build/three.module.js");
-/* harmony import */ var three_examples_jsm_loaders_GLTFLoader_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! three/examples/jsm/loaders/GLTFLoader.js */ "./node_modules/three/examples/jsm/loaders/GLTFLoader.js");
-/* harmony import */ var _pixiv_three_vrm__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @pixiv/three-vrm */ "./node_modules/@pixiv/three-vrm/lib/three-vrm.module.js");
+/* harmony import */ var three__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! three */ "../node_modules/three/build/three.core.js");
+/* harmony import */ var three__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! three */ "../node_modules/three/build/three.module.js");
+/* harmony import */ var three_examples_jsm_loaders_GLTFLoader_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! three/examples/jsm/loaders/GLTFLoader.js */ "../node_modules/three/examples/jsm/loaders/GLTFLoader.js");
+/* harmony import */ var _pixiv_three_vrm__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @pixiv/three-vrm */ "../node_modules/@pixiv/three-vrm/lib/three-vrm.module.js");
 /* harmony import */ var _vrmHelpers__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./vrmHelpers */ "./src/vrmHelpers.js");
 /* harmony import */ var _recognitionHelpers__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./recognitionHelpers */ "./src/recognitionHelpers.js");
-/* harmony import */ var three_examples_jsm_postprocessing_EffectComposer_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! three/examples/jsm/postprocessing/EffectComposer.js */ "./node_modules/three/examples/jsm/postprocessing/EffectComposer.js");
-/* harmony import */ var three_examples_jsm_postprocessing_RenderPass_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! three/examples/jsm/postprocessing/RenderPass.js */ "./node_modules/three/examples/jsm/postprocessing/RenderPass.js");
-/* harmony import */ var zustand__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! zustand */ "./node_modules/zustand/esm/react.mjs");
+/* harmony import */ var three_examples_jsm_postprocessing_EffectComposer_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! three/examples/jsm/postprocessing/EffectComposer.js */ "../node_modules/three/examples/jsm/postprocessing/EffectComposer.js");
+/* harmony import */ var three_examples_jsm_postprocessing_RenderPass_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! three/examples/jsm/postprocessing/RenderPass.js */ "../node_modules/three/examples/jsm/postprocessing/RenderPass.js");
+/* harmony import */ var zustand__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! zustand */ "../node_modules/zustand/esm/react.mjs");
 function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, _typeof(o); }
 function _regenerator() { /*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/babel/babel/blob/main/packages/babel-helpers/LICENSE */ var e, t, r = "function" == typeof Symbol ? Symbol : {}, n = r.iterator || "@@iterator", o = r.toStringTag || "@@toStringTag"; function i(r, n, o, i) { var c = n && n.prototype instanceof Generator ? n : Generator, u = Object.create(c.prototype); return _regeneratorDefine2(u, "_invoke", function (r, n, o) { var i, c, u, f = 0, p = o || [], y = !1, G = { p: 0, n: 0, v: e, a: d, f: d.bind(e, 4), d: function d(t, r) { return i = t, c = 0, u = e, G.n = r, a; } }; function d(r, n) { for (c = r, u = n, t = 0; !y && f && !o && t < p.length; t++) { var o, i = p[t], d = G.p, l = i[2]; r > 3 ? (o = l === n) && (u = i[(c = i[4]) ? 5 : (c = 3, 3)], i[4] = i[5] = e) : i[0] <= d && ((o = r < 2 && d < i[1]) ? (c = 0, G.v = n, G.n = i[1]) : d < l && (o = r < 3 || i[0] > n || n > l) && (i[4] = r, i[5] = n, G.n = l, c = 0)); } if (o || r > 1) return a; throw y = !0, n; } return function (o, p, l) { if (f > 1) throw TypeError("Generator is already running"); for (y && 1 === p && d(p, l), c = p, u = l; (t = c < 2 ? e : u) || !y;) { i || (c ? c < 3 ? (c > 1 && (G.n = -1), d(c, u)) : G.n = u : G.v = u); try { if (f = 2, i) { if (c || (o = "next"), t = i[o]) { if (!(t = t.call(i, u))) throw TypeError("iterator result is not an object"); if (!t.done) return t; u = t.value, c < 2 && (c = 0); } else 1 === c && (t = i["return"]) && t.call(i), c < 2 && (u = TypeError("The iterator does not provide a '" + o + "' method"), c = 1); i = e; } else if ((t = (y = G.n < 0) ? u : r.call(n, G)) !== a) break; } catch (t) { i = e, c = 1, u = t; } finally { f = 1; } } return { value: t, done: y }; }; }(r, o, i), !0), u; } var a = {}; function Generator() {} function GeneratorFunction() {} function GeneratorFunctionPrototype() {} t = Object.getPrototypeOf; var c = [][n] ? t(t([][n]())) : (_regeneratorDefine2(t = {}, n, function () { return this; }), t), u = GeneratorFunctionPrototype.prototype = Generator.prototype = Object.create(c); function f(e) { return Object.setPrototypeOf ? Object.setPrototypeOf(e, GeneratorFunctionPrototype) : (e.__proto__ = GeneratorFunctionPrototype, _regeneratorDefine2(e, o, "GeneratorFunction")), e.prototype = Object.create(u), e; } return GeneratorFunction.prototype = GeneratorFunctionPrototype, _regeneratorDefine2(u, "constructor", GeneratorFunctionPrototype), _regeneratorDefine2(GeneratorFunctionPrototype, "constructor", GeneratorFunction), GeneratorFunction.displayName = "GeneratorFunction", _regeneratorDefine2(GeneratorFunctionPrototype, o, "GeneratorFunction"), _regeneratorDefine2(u), _regeneratorDefine2(u, o, "Generator"), _regeneratorDefine2(u, n, function () { return this; }), _regeneratorDefine2(u, "toString", function () { return "[object Generator]"; }), (_regenerator = function _regenerator() { return { w: i, m: f }; })(); }
 function _regeneratorDefine2(e, r, n, t) { var i = Object.defineProperty; try { i({}, "", {}); } catch (e) { i = 0; } _regeneratorDefine2 = function _regeneratorDefine(e, r, n, t) { function o(r, n) { _regeneratorDefine2(e, r, function (e) { return this._invoke(r, n, e); }); } r ? i ? i(e, r, { value: n, enumerable: !t, configurable: !t, writable: !t }) : e[r] = n : (o("next", 0), o("throw", 1), o("return", 2)); }, _regeneratorDefine2(e, r, n, t); }
@@ -96223,7 +96223,7 @@ var VirtualCameraManager = /*#__PURE__*/function () {
                 return new _pixiv_three_vrm__WEBPACK_IMPORTED_MODULE_4__.VRMLoaderPlugin(parser);
               });
               _context.p = 1;
-              blobAvatarUrl = ((_document$querySelect = document.querySelector('meta[name="ExtensionVirtualCameraManagerAvatarUrl"]')) === null || _document$querySelect === void 0 ? void 0 : _document$querySelect.content) || "/models/9194654833395403063.vrm";
+              blobAvatarUrl = ((_document$querySelect = document.querySelector('meta[name="ExtensionVirtualCameraManagerAvatarUrl"]')) === null || _document$querySelect === void 0 ? void 0 : _document$querySelect.content) || "models/9194654833395403063.vrm";
               avatarUrl = blobAvatarUrl;
               _context.n = 2;
               return loader.loadAsync(avatarUrl);
@@ -96351,7 +96351,7 @@ var VirtualCameraManager = /*#__PURE__*/function () {
         locateFile: function locateFile(file) {
           var meta = document.querySelector('meta[name="ExtensionVirtualCameraManagerUrl"]');
           var extensionURL = meta === null || meta === void 0 ? void 0 : meta.content;
-          return "".concat(extensionURL || "/", "holistic/").concat(file);
+          return "".concat(extensionURL || "", "holistic/").concat(file);
         }
       });
       this.holisticRef.setOptions({

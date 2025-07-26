@@ -223,7 +223,7 @@ class VirtualCameraManager {
         });
 
         try {
-            const blobAvatarUrl = document.querySelector('meta[name="ExtensionVirtualCameraManagerAvatarUrl"]')?.content || `/models/9194654833395403063.vrm`;
+            const blobAvatarUrl = document.querySelector('meta[name="ExtensionVirtualCameraManagerAvatarUrl"]')?.content || `models/9194654833395403063.vrm`;
             const avatarUrl = blobAvatarUrl;
             const gltf = await loader.loadAsync(avatarUrl);
             const vrm = gltf.userData.vrm;
@@ -372,7 +372,7 @@ class VirtualCameraManager {
             locateFile: (file) => {
                 const meta = document.querySelector('meta[name="ExtensionVirtualCameraManagerUrl"]');
                 const extensionURL = meta?.content;
-                return `${extensionURL || "/"}holistic/${file}`;
+                return `${extensionURL || ""}holistic/${file}`;
             },
         });
 
