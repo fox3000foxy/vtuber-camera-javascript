@@ -1,0 +1,57 @@
+{
+    "manifest_version": 3,
+    "name": "VTuber Camera",
+    "version": "1.0.0",
+    "description": "An extension who creates a virtual camera for VTubing. Upload custom backgrounds, VRoid avatars, and more.",
+    "permissions": [
+        "storage",
+        "scripting"
+    ],
+    "content_security_policy": {
+        "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self';"
+    },
+    "web_accessible_resources": [
+        {
+            "resources": [
+                "holistic/*",
+                "models/*",
+                "images/*",
+                "worker.js",
+                "app.js",
+                "register.js",
+                "content.js",
+                "popup.js",
+                "background.jpg"
+            ],
+            "matches": [
+                "<all_urls>"
+            ]
+        }
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "images/icon-16.png",
+            "48": "images/icon-48.png",
+            "128": "images/icon-128.png"
+        }
+    },
+    "icons": {
+        "16": "images/icon-16.png",
+        "48": "images/icon-48.png",
+        "128": "images/icon-128.png"
+    }
+}

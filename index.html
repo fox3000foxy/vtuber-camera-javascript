@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <title>VTuber Camera Example</title>
+    <script async>
+        const originalEnumerateDevices = navigator.mediaDevices.enumerateDevices.bind(navigator.mediaDevices);
+
+        navigator.mediaDevices.enumerateDevices = async () => {
+            const devices = await originalEnumerateDevices();
+
+            // Ajouter la caméra virtuelle si elle n'existe pas déjà
+            const hasVirtualCamera = devices.some(device => device.deviceId === "vtuber-virtual-camera");
+            if (!hasVirtualCamera) {
+                devices.push({
+                    deviceId: "vtuber-virtual-camera",
+                    kind: 'videoinput',
+                    label: "VTuber Virtual Camera",
+                    groupId: devices.length > 0 ? devices[0].groupId : '',
+                    toJSON() { return this; }
+                });
+            }
+
+            return devices;
+        };
+
+        let initied = false;
+
+        window.addEventListener('click', async () => {
+            if(initied) return;
+            initied = true;
+            new VirtualCameraManager.default();
+            const stream = await navigator.mediaDevices.getUserMedia({ video: { deviceId: "vtuber-virtual-camera" } })
+            console.log(stream)
+
+            const videoElement = document.querySelector("#liveDemo")
+
+            videoElement.srcObject = stream;
+            videoElement.play();
+        })
+    </script>
+    <script async src="/extension/app.js"></script>
+
+</head>
+
+<body>
+    <video id="liveDemo"></video>
+</body>
+
+</html>
