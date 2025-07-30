@@ -4,8 +4,7 @@
     "version": "1.0.0",
     "description": "An extension who creates a virtual camera for VTubing. Upload custom backgrounds, VRoid avatars, and more.",
     "permissions": [
-        "storage",
-        "scripting"
+        "storage"
     ],
     "content_security_policy": {
         "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self';"
